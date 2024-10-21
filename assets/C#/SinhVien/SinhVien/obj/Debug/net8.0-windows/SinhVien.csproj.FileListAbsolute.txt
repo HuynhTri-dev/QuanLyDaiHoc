@@ -1,0 +1,16 @@
+C:\Users\ASUS1\OneDrive\Máy tính\BMTT\csdl_SinhVien\assets\C#\SinhVien\SinhVien\bin\Debug\net8.0-windows\SinhVien.exe
+C:\Users\ASUS1\OneDrive\Máy tính\BMTT\csdl_SinhVien\assets\C#\SinhVien\SinhVien\bin\Debug\net8.0-windows\SinhVien.deps.json
+C:\Users\ASUS1\OneDrive\Máy tính\BMTT\csdl_SinhVien\assets\C#\SinhVien\SinhVien\bin\Debug\net8.0-windows\SinhVien.runtimeconfig.json
+C:\Users\ASUS1\OneDrive\Máy tính\BMTT\csdl_SinhVien\assets\C#\SinhVien\SinhVien\bin\Debug\net8.0-windows\SinhVien.dll
+C:\Users\ASUS1\OneDrive\Máy tính\BMTT\csdl_SinhVien\assets\C#\SinhVien\SinhVien\bin\Debug\net8.0-windows\SinhVien.pdb
+C:\Users\ASUS1\OneDrive\Máy tính\BMTT\csdl_SinhVien\assets\C#\SinhVien\SinhVien\obj\Debug\net8.0-windows\SinhVien.Form1.resources
+C:\Users\ASUS1\OneDrive\Máy tính\BMTT\csdl_SinhVien\assets\C#\SinhVien\SinhVien\obj\Debug\net8.0-windows\SinhVien.csproj.GenerateResource.cache
+C:\Users\ASUS1\OneDrive\Máy tính\BMTT\csdl_SinhVien\assets\C#\SinhVien\SinhVien\obj\Debug\net8.0-windows\SinhVien.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS1\OneDrive\Máy tính\BMTT\csdl_SinhVien\assets\C#\SinhVien\SinhVien\obj\Debug\net8.0-windows\SinhVien.AssemblyInfoInputs.cache
+C:\Users\ASUS1\OneDrive\Máy tính\BMTT\csdl_SinhVien\assets\C#\SinhVien\SinhVien\obj\Debug\net8.0-windows\SinhVien.AssemblyInfo.cs
+C:\Users\ASUS1\OneDrive\Máy tính\BMTT\csdl_SinhVien\assets\C#\SinhVien\SinhVien\obj\Debug\net8.0-windows\SinhVien.csproj.CoreCompileInputs.cache
+C:\Users\ASUS1\OneDrive\Máy tính\BMTT\csdl_SinhVien\assets\C#\SinhVien\SinhVien\obj\Debug\net8.0-windows\SinhVien.dll
+C:\Users\ASUS1\OneDrive\Máy tính\BMTT\csdl_SinhVien\assets\C#\SinhVien\SinhVien\obj\Debug\net8.0-windows\refint\SinhVien.dll
+C:\Users\ASUS1\OneDrive\Máy tính\BMTT\csdl_SinhVien\assets\C#\SinhVien\SinhVien\obj\Debug\net8.0-windows\SinhVien.pdb
+C:\Users\ASUS1\OneDrive\Máy tính\BMTT\csdl_SinhVien\assets\C#\SinhVien\SinhVien\obj\Debug\net8.0-windows\SinhVien.genruntimeconfig.cache
+C:\Users\ASUS1\OneDrive\Máy tính\BMTT\csdl_SinhVien\assets\C#\SinhVien\SinhVien\obj\Debug\net8.0-windows\ref\SinhVien.dll

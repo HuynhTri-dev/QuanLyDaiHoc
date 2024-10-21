@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS1\\OneDrive\\M\u00E1y t\u00EDnh\\BMTT\\csdl_SinhVien\\assets\\C#\\SinhVien\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D314A75-BB99-4607-BB80-C0F2F501F8B8}|SinhVien\\SinhVien.csproj|c:\\users\\asus1\\onedrive\\m\u00E1y t\u00EDnh\\bmtt\\csdl_sinhvien\\assets\\c#\\sinhvien\\sinhvien\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D314A75-BB99-4607-BB80-C0F2F501F8B8}|SinhVien\\SinhVien.csproj|solutionrelative:sinhvien\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D314A75-BB99-4607-BB80-C0F2F501F8B8}|SinhVien\\SinhVien.csproj|c:\\users\\asus1\\onedrive\\m\u00E1y t\u00EDnh\\bmtt\\csdl_sinhvien\\assets\\c#\\sinhvien\\sinhvien\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D314A75-BB99-4607-BB80-C0F2F501F8B8}|SinhVien\\SinhVien.csproj|solutionrelative:sinhvien\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS1\\OneDrive\\M\u00E1y t\u00EDnh\\BMTT\\csdl_SinhVien\\assets\\C#\\SinhVien\\SinhVien\\Form1.cs",
+              "RelativeDocumentMoniker": "SinhVien\\Form1.cs",
+              "ToolTip": "C:\\Users\\ASUS1\\OneDrive\\M\u00E1y t\u00EDnh\\BMTT\\csdl_SinhVien\\assets\\C#\\SinhVien\\SinhVien\\Form1.cs*",
+              "RelativeToolTip": "SinhVien\\Form1.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T13:11:15.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ASUS1\\OneDrive\\M\u00E1y t\u00EDnh\\BMTT\\csdl_SinhVien\\assets\\C#\\SinhVien\\SinhVien\\Form1.cs",
+              "RelativeDocumentMoniker": "SinhVien\\Form1.cs",
+              "ToolTip": "C:\\Users\\ASUS1\\OneDrive\\M\u00E1y t\u00EDnh\\BMTT\\csdl_SinhVien\\assets\\C#\\SinhVien\\SinhVien\\Form1.cs [Design]*",
+              "RelativeToolTip": "SinhVien\\Form1.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T13:10:55.739Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

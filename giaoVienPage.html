@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./img/favicon.jpg" type="image/x-icon" />
+
+    <!-- FONT CHU -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FONT ICON -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/root.css" />
+    <link rel="stylesheet" href="./assets/css/sinhVienpage.css" />
+
+    <title>Hutech Infor</title>
+  </head>
+  <body>
+    <!-- Thanh menu -->
+    <header class="menu">
+      <div class="menu__logo">
+        <img src="./img/logo-hutech-1.png" alt="" />
+        <h1>CƠ SỞ DỮ LIỆU HUTECH</h1>
+      </div>
+      <nav class="menu__nav">
+        <a class="menu__nav__button" href="./sinhVienPage.html">
+          <i class="fa-solid fa-user"></i>
+          <span> Sinh Viên</span>
+        </a>
+        <a class="menu__nav__button" href="./monHocPage.html">
+          <i class="fa-solid fa-book"></i>
+          <span> Môn học</span>
+        </a>
+        <a class="menu__nav__button active" href="./giaoVienPage.html">
+          <i class="fa-solid fa-chalkboard-user"></i>
+          <span> Giáo viên</span>
+        </a>
+      </nav>
+    </header>
+
+    <!-- Bang xuat danh sach -->
+    <main id="student-list">
+      <div class="student-list__menu">
+        <h1>Quản lý hồ sơ giáo viên</h1>
+        <nav class="student-list__nav">
+          <button id="open" type="button">Thêm mới</button>
+          <button id="delect" type="button">Xóa</button>
+          <button type="button">Xuất excel</button>
+        </nav>
+      </div>
+
+      <div id="teacher-table" class="student-list__student-table">
+        <table>
+          <tr class="student-list__student-table__title">
+            <th>Mã giáo viên</th>
+            <th>Họ tên</th>
+            <th>Ngày sinh</th>
+            <th>Khoa</th>
+            <th>Số điên thoại</th>
+            <th>Email</th>
+          </tr>
+        </table>
+      </div>
+
+      <div class="form-block">
+        <!-- Form thong tin giao vien -->
+        <div class="info-form" style="display: none">
+          <div class="info-form__title">
+            <h1>Nhập thông tin giáo viên</h1>
+          </div>
+          <form id="myForm">
+            <div class="info-form__box">
+              <div>
+                <label for="teacher_id">Mã giáo viên: </label>
+                <input type="text" id="teacher_id" name="teacher_id" required />
+              </div>
+              <div>
+                <label for="name">Họ tên: </label>
+                <input type="text" id="name" name="name" required />
+              </div>
+            </div>
+            <br />
+            <div class="info-form__box">
+              <div>
+                <label for="date_of_birth">Ngày sinh: </label>
+                <input
+                  type="date"
+                  id="date_of_birth"
+                  name="date_of_birth"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="depart">Khoa: </label>
+                <input type="text" name="depart" id="depart" required />
+              </div>
+            </div>
+            <br />
+            <div class="info-form__box">
+              <div>
+                <label for="phone">Số điện thoại: </label>
+                <input type="text" name="phone" id="phone" />
+              </div>
+
+              <div>
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" required />
+              </div>
+            </div>
+            <br />
+            <div class="info-form__nav">
+              <button id="ok-button" type="submit">Ok</button>
+              <button id="ok-add" type="button">Ok + Add</button>
+              <button id="close" type="button">Cancel</button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Form xoa giang vien -->
+        <div id="delectForm" style="display: none">
+          <form method="POST" action="./assets/php/delectGiaoVien.php">
+            <h1>Xóa giảng viên</h1>
+            <label for="magv">Mã giáo viên:</label><br />
+            <input type="text" id="magv" name="magv" required /><br /><br />
+            <button type="submit">Xóa giảng viên</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <!--  -->
+    <footer>
+      <div>
+        <h1>
+          <i class="fa-solid fa-school"></i> Trường đại học Công nghệ thành phố
+          Hồ Chí Minh
+        </h1>
+        <h1>
+          <i class="fa-solid fa-pen-nib"></i> Thiết kế bởi HUTECH Trai Đẹp
+        </h1>
+      </div>
+      <a href="#student-list"><i class="fa-solid fa-chevron-up"></i></a>
+    </footer>
+  </body>
+  <script src="./assets/javascript/func_form.js"></script>
+  <script src="./assets/javascript/getInfoGV.js"></script>
+  <script src="./assets/javascript/add_GV.js"></script>
+</html>

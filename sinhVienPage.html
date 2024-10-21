@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./img/favicon.jpg" type="image/x-icon" />
+
+    <!-- FONT CHU -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FONT ICON -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/root.css" />
+    <link rel="stylesheet" href="./assets/css/sinhVienpage.css" />
+
+    <title>Hutech Infor</title>
+  </head>
+  <body>
+    <!-- Thanh menu -->
+    <header class="menu">
+      <div class="menu__logo">
+        <img src="./img/logo-hutech-1.png" alt="" />
+        <h1>CƠ SỞ DỮ LIỆU HUTECH</h1>
+      </div>
+      <nav class="menu__nav">
+        <a class="menu__nav__button active" href="./sinhVienPage.html">
+          <i class="fa-solid fa-user"></i>
+          <span> Sinh Viên</span>
+        </a>
+        <a class="menu__nav__button" href="./monHocPage.html">
+          <i class="fa-solid fa-book"></i>
+          <span> Môn học</span>
+        </a>
+        <a class="menu__nav__button" href="./giaoVienPage.html">
+          <i class="fa-solid fa-chalkboard-user"></i>
+          <span> Giáo viên</span>
+        </a>
+      </nav>
+    </header>
+
+    <!-- Danh sach sinh vien -->
+    <main id="student-list">
+      <div class="student-list__menu">
+        <h1>Quản lý hồ sơ học sinh</h1>
+        <nav class="student-list__nav">
+          <button id="open" type="button">Thêm mới</button>
+          <button id="delect" type="button">Xóa</button>
+          <button type="button">Xuất excel</button>
+        </nav>
+      </div>
+
+      <div id="student-table" class="student-list__student-table">
+        <table>
+          <tr class="student-list__student-table__title">
+            <th>Mã sinh viên</th>
+            <th>Họ tên</th>
+            <th>Ngày sinh</th>
+            <th>Quê quán</th>
+            <th>Khoa</th>
+            <th>Ngành học</th>
+            <th>Địa chỉ</th>
+            <th>Số điện thoại</th>
+          </tr>
+        </table>
+      </div>
+
+      <!-- Form thong tin sinh vien -->
+      <div class="form-block">
+        <div class="info-form" style="display: none">
+          <div class="info-form__title">
+            <h1>Nhập thông tin sinh viên</h1>
+          </div>
+          <form id="myForm">
+            <div class="info-form__box">
+              <div>
+                <label for="student_id">Mã sinh viên: </label>
+                <input type="text" id="student_id" name="student_id" required />
+              </div>
+              <div>
+                <label for="name">Họ tên: </label>
+                <input type="text" id="name" name="name" required />
+              </div>
+            </div>
+            <br />
+            <div class="info-form__box">
+              <div>
+                <label for="date_of_birth">Ngày sinh: </label>
+                <input
+                  type="date"
+                  id="date_of_birth"
+                  name="date_of_birth"
+                  required
+                />
+              </div>
+              <div>
+                <label for="home_town">Quê quán: </label>
+                <input type="text" id="hometown" name="hometown" />
+              </div>
+            </div>
+            <br />
+            <div class="info-form__box">
+              <div>
+                <label for="depart">Khoa: </label>
+                <input type="text" name="depart" id="depart" required />
+              </div>
+              <div>
+                <label for="major">Ngành học: </label>
+                <input type="text" id="major" name="major" required />
+              </div>
+            </div>
+            <br />
+            <div class="info-form__box">
+              <div>
+                <label for="sex">Giới tính: </label>
+                <select id="sex" name="sex">
+                  <option value="0">Nam</option>
+                  <option value="1">Nữ</option>
+                </select>
+              </div>
+              <div>
+                <label for="phone">Số điên thoại: </label>
+                <input type="text" name="phone" id="phone" />
+              </div>
+            </div>
+            <br />
+            <div class="info-form__nav">
+              <button id="ok-button" type="submit" name="add">Ok</button>
+              <button id="ok-add" type="button">Ok + Add</button>
+              <button id="close" type="button">Cancel</button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Form xoa thong tin -->
+        <div id="delectForm" style="display: none">
+          <form action="./assets/php/delectSinhVien.php" method="post">
+            <h1>Xóa sinh viên</h1>
+            <br />
+            <label for="mssv">Mã sinh viên:</label>
+            <input type="text" id="mssv" name="mssv" required />
+            <br />
+            <br />
+            <button type="submit">Xóa sinh viên</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <!--  -->
+    <footer>
+      <div>
+        <h1>
+          <i class="fa-solid fa-school"></i> Trường đại học Công nghệ thành phố
+          Hồ Chí Minh
+        </h1>
+        <h1>
+          <i class="fa-solid fa-pen-nib"></i> Thiết kế bởi HUTECH Trai Đẹp
+        </h1>
+      </div>
+      <a href="#student-list"><i class="fa-solid fa-chevron-up"></i></a>
+    </footer>
+  </body>
+  <script src="./assets/javascript/func_form.js"></script>
+  <script src="./assets/javascript/getInfoSV.js"></script>
+  <script src="./assets/javascript/add_SV.js"></script>
+</html>

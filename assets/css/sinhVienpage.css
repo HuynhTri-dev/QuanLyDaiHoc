@@ -1,0 +1,245 @@
+body {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.menu {
+  background-color: var(--color-nav);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu__logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.menu img {
+  width: 250px;
+  height: 80px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.menu h1 {
+  font-family: var(--font-word);
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.menu__nav {
+  font-family: var(--font-word);
+  font-weight: 700;
+  background-color: white;
+  width: 100%;
+  height: 40px;
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu__nav__button {
+  padding: 8px 20px;
+}
+
+.menu__nav__button:hover {
+  background-color: var(--color-button);
+  color: white;
+}
+
+.menu__nav span {
+  font-size: 25px;
+}
+
+#student-list {
+  font-family: var(--font-word);
+  margin-top: 25px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+  height: 900px;
+}
+
+.student-list__menu {
+  background-color: var(--color-nav);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 40px;
+}
+
+.student-list__nav button {
+  background-color: white;
+  width: 100px;
+  cursor: pointer;
+  height: 25px;
+  font-family: var(--font-word);
+  font-weight: 700;
+  border: none;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.student-list__nav button:hover {
+  transform: scale(1.2);
+}
+
+.student-list__menu h1 {
+  color: white;
+  font-weight: 700;
+}
+
+.student-list__student-table {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.student-list__student-table table {
+  width: 90%;
+  border: 3px solid black;
+}
+
+.student-list__student-table th {
+  padding: 3px;
+  border: 1px solid black;
+}
+
+.student-list__student-table__title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.student-list__student-table__title th {
+  padding: 5px 10px;
+  border: 1px solid black;
+}
+
+footer {
+  font-family: var(--font-word);
+  padding: 10px;
+  margin: 20px 0px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fa-chevron-up {
+  font-size: 30px;
+  border: 3px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.fa-chevron-up:hover {
+  color: white;
+  background-color: var(--color-button);
+  border: 3px solid var(--color-button);
+}
+
+.info-form {
+  background-color: var(--color-form);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  width: 50%;
+  padding: 10px;
+  margin: 20px 10px;
+}
+
+.info-form__title {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 10px 0px 20px 0px;
+}
+
+.info-form__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info-form__box input {
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.info-form__nav {
+  display: flex;
+  justify-content: right;
+}
+
+.info-form__nav button {
+  margin-right: 20px;
+  background-color: var(--color-box);
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.active {
+  border-bottom: 3px solid var(--color-button);
+}
+
+th {
+  background-color: #f2f2f2;
+  border: 1px solid #000; /* Viền đen 1px cho các ô tiêu đề */
+  padding: 8px;
+  text-align: left;
+}
+
+/* Định dạng cho các ô trong bảng */
+td {
+  border: 1px solid #000; /* Viền đen 1px cho các ô */
+  padding: 8px;
+  text-align: left;
+}
+
+#delectForm {
+  background-color: var(--color-form);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  width: 25%;
+  height: 120px;
+  padding: 10px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 20px 10px;
+}
+
+#delectForm h1 {
+  font-weight: 700;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+}
+
+#delectForm input {
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  width: 60%;
+}
+
+.form-block {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+#delectForm button {
+  margin-right: 20px;
+  background-color: var(--color-box);
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  cursor: pointer;
+}

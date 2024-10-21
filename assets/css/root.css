@@ -1,0 +1,12 @@
+:root {
+  --font-word: "Figtree", sans-serif;
+  --color-word: rgba(0, 0, 0, 1);
+}
+
+:root {
+  --color-nav: rgba(45, 83, 140, 255);
+  --color-button: rgba(53, 91, 145, 255);
+  --color-body: #e8eef7;
+  --color-form: rgba(240, 240, 240, 0.76);
+  --color-box: rgba(217, 217, 217, 1);
+}
